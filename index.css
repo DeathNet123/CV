@@ -1,0 +1,27 @@
+#img-developer
+{
+    transition: width 1s;
+    -webkit-transition: width 1s;
+    -moz-transition: width 1s;
+    -ms-transition: width 1s;
+    -o-transition: width 1s;
+}
+
+#img-developer:hover
+{
+    width: 53% !important;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 767px)
+{
+    #img-developer
+    {
+        width: 100% !important;
+    }
+
+    .row div
+    {
+        padding: 5% !important;
+    }
+}
