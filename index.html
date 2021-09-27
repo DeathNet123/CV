@@ -7,18 +7,22 @@
     <meta name="description" content = "This Webpage is CV of Arslan Ahmed Qureshi">
     <meta name="author" content="Arslan Ahmed">
     <link rel="icon" type="image/png" sizes = "192x192" href="icons/favicon.png">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="index.css" type="text/css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script defer src="index.js"></script>
     <title>Arslan Ahmed</title>
 </head>
 <body>
-    <header class="site-header bg-dark text-white">
+    <header class="site-header bg-dark text-white container-fluid">
         <div class="row p-1">
             <div class="col-md-2">
                 <img src = "images/developer.jpg" class="img-fluid rounded w-50" id="img-developer" alt="developer_picture">
@@ -36,17 +40,126 @@
             </div>
         </div>
     </header>
-    <div class="container-fluid p-5">
-        <h1 class="display-5">About Me</h1>
+    <div class="container-fluid px-5">
+        <section id="about_me">
+        <h1 class="display-4 text-center">About Me</h1>
         <hr>
         <p class="text-black-50">
             I am Arslan Ahmed a computer science student always looking to apply my leanred skills to solve real world problems and in hunt of usefull knowledge.<br>
             I believe that consistent hardwork, honesty and ability to never give up can lead you towards success. <br>
             Currently I am working on the ReactJs and Redux and learning other web technologies my main focus is to adopt the MERN stack as my main stack in order<br>
             to serve as Full stack developer in this industry and achieve the other goals in upcoming time.
+            <button class="btn btn-primary">Trigger_animation</button>
         </p>
+        </section>
+        <section id="skills">        
+            <h1 class="display-4 text-center">Technical Skills</h1>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                <h2 class="text-black-50 font-weight-light">C/C++(STL)</h2>
+                <div class="progress m-1">
+                    <div class="progress-bar bg-info" id="c">0%</div>
+                  </div>
+                  <h2 class="text-black-50 font-weight-light">Python</h2>
+                  <div class="progress m-1">
+                    <div class="progress-bar bg-secondary" id="py">0%</div>
+                  </div>
+                  <h2 class="text-black-50 font-weight-light">JavaScript</h2>
+                  <div class="progress m-1">
+                    <div class="progress-bar bg-danger" id="js">0%</div>
+                  </div>
+                  <h2 class="text-black-50 font-weight-light">Jquery</h2>
+                  <div class="progress m-1">
+                    <div class="progress-bar bg-dark" id="jq">0%</div>
+                  </div>
+                  <h2 class="text-black-50 font-weight-light">React</h2>
+                  <div class="progress m-1">
+                    <div class="progress-bar bg-success" id="react">0%</div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <h2 class="text-black-50 font-weight-light">HTML5</h2>
+                  <div class="progress m-1">
+                    <div class="progress-bar bg-success" id="html">0%</div>
+                  </div>
+                  <h2 class="text-black-50 font-weight-light">CSS3/Responsive Web Design</h2>
+                  <div class="progress m-1">
+                    <div class="progress-bar bg-dark" id="css">0%</div>
+                  </div>
+                  <h2 class="text-black-50 font-weight-light">Bootstrap 4</h2>
+                  <div class="progress m-1">
+                    <div class="progress-bar bg-danger" id="boots">0%</div>
+                  </div>
+                  <h2 class="text-black-50 font-weight-light">Linux</h2>
+                  <div class="progress  m-1">
+                    <div class="progress-bar bg-secondary" id="linux">0%</div>
+                  </div>
+                  <h2 class="text-black-50 font-weight-light">Object-Oriented Design</h2>
+                  <div class="progress m-1">
+                    <div class="progress-bar bg-info" id="oop">0%</div>
+                  </div>
+                </div>
+            </div>
+            </section>
+            <section id="soft-skills">
+                <h1 class="display-4 text-center">Soft Skill</h1>
+                <hr>
+                <p>
+                    <ul class="list-group w-75 mx-auto">
+                        <li class="list-group-item list-group-item-success text-center">Critical thinking</li>
+                        <li class="list-group-item list-group-item-secondary text-center">Business Communication</li>
+                        <li class="list-group-item list-group-item-info text-center">Ambition</li>
+                        <li class="list-group-item list-group-item-primary text-center">Time management</li>
+                        <li class="list-group-item list-group-item-dark text-center">Focus</li>
+                        <li class="list-group-item list-group-item-light text-center">Enthusiasm and Optimism</li>
+                    </ul>
+                </p>
+            </section>
+            <section id="education">
+                <h1 class="display-4 text-center">Education</h1>
+                <hr>
+                <h2 class="font-weight-lighter">UNIVERSITY OF THE PUNJAB, LAHORE - PUCIT</h2>
+                <h3 class="font-weight-lighter">Bachelor of Computer Science October 2019 - In Progress</h3>
+                <p>
+                    Bachelor's in Computer Science.<br>
+                    CGPA: 3.5<br>
+                    Doing Speed Programming as Fun.
+                </p>
+                <hr>
+                <h2 class="font-weight-lighter">Pakistan International School Jeddah <a href="https://pisjazizia.com/"  target="_blank" class="text-info">(PISJ)</a></h2>
+                <h3 class="font-weight-lighter">Intermediate June 2017 - July 2019</h3> 
+                <p>
+                    Intermediate in Computer Science (ICS)<br>
+                    Percentage: 80%<br>
+                    Federal Board of Intermediate and Secondary Education
+                </p>
+                <hr>
+            </section>
+            <section id="courses">
+                <h1 class="font-weight-light text-center">Courses and Specialization.</h1>
+                <hr>
+                <ul>
+                <li>
+                <a href="https://www.coursera.org/account/accomplishments/specialization/U275VW3AUQQ9" target="_blank" class="text-info">
+                <h3 class="font-weight-lighter">Python for Everybody | Specialization</h3>
+                <h4 class="font-weight-lighter">University of Michigan, USA | Coursera Platform</h4></a></li>
+                <li>
+                <a href="https://www.coursera.org/account/accomplishments/specialization/U275VW3AUQQ9" target="_blank" class="text-info">
+                    <h3 class="font-weight-lighter">Web Design for Everybody | Specialization</h3>
+                    <h4 class="font-weight-lighter">University of Michigan, USA | Coursera Platform</h4></a></li>
+                <li>    
+                <a href="https://www.freecodecamp.org/certification/arqispr/responsive-web-design" target="_blank" class="text-info">
+                    <h3 class="font-weight-lighter">Responsive Web Design | Certification</h3>
+                    <h4 class="font-weight-lighter">FreeCodeCamp</h4></a></li>
+                <li>
+                <a href="https://www.freecodecamp.org/certification/arqispr/javascript-algorithms-and-data-structures" target="_blank" class="text-info">
+                    <h3 class="font-weight-lighter">JavaScript Algorithms and Data Structures | certification</h3>
+                    <h4 class="font-weight-lighter">FreeCodeCamp</h4></a></li>
+                </ul>                   
+            </section>
     </div>
-    <footer class="site-footer body">
+    <footer class="site-footer container-fluid">
 
     </footer>
 </body>
