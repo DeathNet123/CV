@@ -1,5 +1,10 @@
 $(document).ready(() =>{
-    const trigger_button = $('button');
+
+    (() => {
+        $("#welcome").modal();
+
+    }) ();
+        const trigger_button = $('#trigger');
     trigger_button.click(() => {
         $("#c").animate({width: '80%'}).text('80%');
         $("#py").animate({width: '50%'}).text('50%');
