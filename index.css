@@ -14,6 +14,11 @@
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
+[class = "card"]
+{
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 767px)
 {
     #img-developer

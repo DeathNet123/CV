@@ -12,4 +12,6 @@ $(document).ready(() =>{
         $("#linux").animate({width: '30%'}).text('30%');
         $("#oop").animate({width: '50%'}).text('50%');
     });
+
+    
 })
